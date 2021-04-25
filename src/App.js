@@ -6,7 +6,7 @@ function App() {
         <Header/>
         <Switch>
             <Route exact path='/' component={HomePage}></Route>
-            <Route path='/shop' component={ShopPage}></Route>
+            <Route path='/category' component={ShopPage}></Route>
             <Route path='/sign-in-up' component={SignInUp}></Route>
         </Switch>
       </div>
